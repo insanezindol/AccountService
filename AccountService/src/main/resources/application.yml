@@ -1,0 +1,33 @@
+server:
+  port: 8084
+
+spring:
+  application:
+    name: account-service
+  main:
+    allow-bean-definition-overriding: true
+  zipkin:
+    base-url: http://ubuntu-server:9411
+  sleuth:
+    sampler:
+      probability: 1
+ 
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8761/eureka/
+    enabled: true
+
+logging:
+  level:
+    com:
+      netflix:
+        config:
+          sources:
+            URLConfigurationSource: ERROR
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
