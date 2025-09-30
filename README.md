@@ -249,7 +249,3 @@ curl -X GET "http://localhost:8084/account/call-customer"
 3. **Customer Service 호출 실패**
     - Customer Service가 Eureka에 등록되었는지 확인
     - Feign 클라이언트 설정 확인
-
-## 📄 라이센스
-
-이 프로젝트는 [MIT 라이센스](LICENSE) 하에 배포됩니다.
