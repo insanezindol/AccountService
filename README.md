@@ -253,17 +253,3 @@ curl -X GET "http://localhost:8084/account/call-customer"
 ## 📄 라이센스
 
 이 프로젝트는 [MIT 라이센스](LICENSE) 하에 배포됩니다.
-
-## 🙋‍♂️ 기여하기
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📞 연락처
-
--   **개발팀**: LunaSoft Development Team
--   **이메일**: [이메일 주소]
--   **프로젝트 링크**: [GitHub Repository URL]
